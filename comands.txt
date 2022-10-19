@@ -9,3 +9,11 @@ git add .               --this command will add the new files to the repository
 git status              --show the status of the new files 
 git commit -m "message" --show the message of the updated 
 git push origin         -- we have to do this
+ 
+ then we have to add the comand branches to main branch
+ we use 
+ git checkout  main
+ git branch                  -- to check we are in main branch
+git merge {feature-branch_name }          -- it will merge the feature branch files to main branches
+git push origin 
+git branch  -d {feature-branch_name}     --will delete the feature branch file
