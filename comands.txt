@@ -1,0 +1,6 @@
+git clone "http web address"
+git branch (tell us how many branches are present)
+git pull origin (will tell  updated all branches)
+git checkout branch_name 
+now again use the command:
+git branch command -- to check feature branch are appearing or not
