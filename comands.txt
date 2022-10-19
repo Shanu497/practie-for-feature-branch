@@ -4,3 +4,8 @@ git pull origin (will tell  updated all branches)
 git checkout branch_name 
 now again use the command:
 git branch command -- to check feature branch are appearing or not
+now we have to add and commit the new files
+git add .               --this command will add the new files to the repository
+git status              --show the status of the new files 
+git commit -m "message" --show the message of the updated 
+git push origin         -- we have to do this
