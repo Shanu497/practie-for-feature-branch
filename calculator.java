@@ -8,3 +8,6 @@ public int subtraction(int a, int b){
 public int multiplication(int a, int b){
     return a  * b;
 }
+public int modulo(int a, int b)   {
+    return a % b;
+}
